@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #fff;
+height: 100%;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	 line-height: 20px;
+	 text-decoration: none;
+	  overscroll-behavior: contain;
+	  max-width: 1500px;
+margin: 0 auto;
+}
+body a {
+	cursor:pointer;
+
+}
+.searchbox{
+position:fixed;
+height:100px;
+background:#333;
+left:0px;
+right:0px;
+top:0px;
+display:block;
+color:#fff;
+z-index:2;
+}
+.sbcont{
+position:relative;
+height:100px;
+display:block;
+}
+.cbx{
+ background-color: #222836;
+ height:30px;
+  width: 100%;
+  text-align:center;
+}
+.loading{
+   font-size: 18px;
+display:block;
+width: 100%;
+text-align:center;
+line-height:55px;
+}
+ul{
+z-index:1;
+position:relative;
+display:block;
+max-width: 600px;
+display: block;
+margin: auto;
+padding: 0;
+width: 100%;
+}
+li {
+  display: block;
+  list-style-type: none;
+  margin: 10px 0 30px 0;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #444;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+li a{
+	color:#222836;
+	display:block;
+	padding:5px;
+}
+li div{
+	display:block;
+	padding:5px;
+	background-color: #d2d2d2;
+}
+li span{
+	display:block;
+	float:right;
+}
+input[type="text"] {
+  border: 3px solid #d2d2d2;
+  background-color: #d2d2d2;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  outline: 0;
+  box-shadow: none;
+  resize: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px;
+  width: 100%;
+  font-size: 18px;
+  text-align:center;
+  height:40px;
+  margin:0px;
+  }
+input[type="submit"] {
+  font-family: sans-serif,Geneva,Verdana,Arial;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #222836;
+  padding: 0px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #222836;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height:32px;
+  margin:0px;
+}
