@@ -1,5 +1,4 @@
 <?php
-$myshops=array();
 //system SETTINGS start
 $system_url="https://www.example.com"; //change to your site URL
 $system_domain="example.com";
